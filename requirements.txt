@@ -1,5 +1,5 @@
 # to fix issue with chroma access
-pysqlite3
+pysqlite3-binary==0.5.4
 
 # Azure Services
 azure-storage-blob

@@ -1,0 +1,31 @@
+# Azure Services
+azure-storage-blob
+
+# Core Data Science
+pandas
+numpy
+scikit-learn
+
+# Vector Database
+chromadb
+
+# LangChain Core
+langchain
+langchain-core
+langchain-chroma
+langchain-openai
+
+# LangGraph (State Management)
+langgraph
+
+# OpenAI
+openai
+
+# Environment Variables
+python-dotenv
+
+# Web Framework
+streamlit
+
+# Optional/Commented Libraries (uncomment if needed)
+# langchain-huggingface

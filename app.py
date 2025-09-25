@@ -15,7 +15,7 @@ import os
 # Import your modules - adjust these imports based on your actual module structure
 try:
     from __config_2 import embedding_main, llm, vector_store_fin_law_hq, vector_store_fin_law
-    from __agent_workflow import agent, get_config_for_thread, memory_component
+    from __agent_workflow_2 import agent, get_config_for_thread, memory_component
 except ImportError as e:
     st.error(f"Failed to import required modules: {e}")
     st.stop()

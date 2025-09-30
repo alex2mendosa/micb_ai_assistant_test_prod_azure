@@ -31,13 +31,20 @@ def simulate_user(user_id, question):
 
 def load_test(num_users=10):
     """Run load test"""
+    
     questions = [
         "Care sunt funcțiile principale ale Băncii Naționale a Moldovei?",
-        "Cum se calculează amenda aplicată de Banca Națională?",
-        "Ce reglementează legea financiară?",
-        "Care sunt sancțiunile pentru nerespectarea legii?",
-        "Explică legislația bancară",
+        "Cum se calculează amenda aplicată de Banca Națională a Moldovei pentru încălcări?",
+        "Ce condiții trebuie să îndeplinească o instituție pentru a obține licență bancară de la Banca Națională a Moldovei?",
+        "Care sunt cerințele de capital minim pentru bănci stabilite de Banca Națională a Moldovei?",
+        "Ce sancțiuni poate aplica Banca Națională a Moldovei pentru nerespectarea regulamentelor?",
+        "Cum se reglementează ratele dobânzilor la creditele bancare de către Banca Națională a Moldovei?",
+        "Care sunt obligațiile de raportare ale băncilor către Banca Națională a Moldovei?",
+        "Ce proceduri trebuie urmate pentru revocarea licenței bancare de către Banca Națională a Moldovei?",
+        "Cum protejează Banca Națională a Moldovei drepturile consumatorilor de servicii financiare?",
+        "Care sunt cerințele privind rezervele obligatorii ale băncilor stabilite de Banca Națională a Moldovei?"
     ]
+
     
     print(f"\n{'='*60}", flush=True)
     print(f"Starting load test with {num_users} concurrent users...", flush=True)
@@ -77,4 +84,5 @@ def load_test(num_users=10):
 if __name__ == "__main__":
     # Get number of users from command line or default to 10
     num_users = int(sys.argv[1]) if len(sys.argv) > 1 else 10
+
     load_test(num_users=num_users)

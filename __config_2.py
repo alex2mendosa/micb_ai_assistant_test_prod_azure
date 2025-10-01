@@ -188,7 +188,7 @@ def get_llm_instance():
     """Initializes and returns the OpenAI Generative AI LLM."""
 
     try: # https://python.langchain.com/api_reference/openai/chat_models/langchain_openai.chat_models.base.ChatOpenAI.html
-        llm = ChatOpenAI(model = 'gpt-4o', 
+        llm = ChatOpenAI(model = 'gpt-4o-mini', 
                          api_key=api_key_var)
         print("LLM isinitialised ")
         return llm
